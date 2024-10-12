@@ -23,7 +23,12 @@ https://cloud.google.com/
 
 https://cloud.google.com/sdk/docs/install#linux
 
-### Instalação do kubectl 
+### Instalação do kubectl
+* Entre no site e siga as instruções:
+
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+
+### Instalação do kubectl GKE
 * Entre no site e siga as instruções:
 
 https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl#install_plugin
