@@ -101,6 +101,11 @@ Sample:
 
 ![image](assets/ingress.png)
 
+### Port Forward 
+```
+kubectl port-forward service/web-color-service 8080:80
+```
+
 ### Aplicação Web-Color
 A aplicação Web-Color utiliza o Kubernetes Ingress Controller para balanceamento de carga. Quando você acessa o serviço através do Ingress, as requisições são distribuídas entre os pods disponíveis que executam a aplicação. Cada vez que você atualizar a página, você poderá ver o ID do pod que atendeu a requisição, indicando que o serviço de load balancing está funcionando corretamente.
 
